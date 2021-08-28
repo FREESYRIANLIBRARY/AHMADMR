@@ -1,0 +1,152 @@
+body{
+    background-color: wheat;
+}
+.all1{
+    background: white;
+    margin-left: 3%;
+    margin-right: 3%;
+   
+} 
+h1{
+    font-size: 50px;
+    font-family: t;
+}
+.test1{
+    font-size: 20px;
+    
+}
+.description{
+    font-size: 20px;
+    font-family: arial; 
+}
+.image5{
+    margin-top: 10px;
+}
+.descriptio{
+    font-size: 20px;
+    font-family: arial;
+   
+}
+.top{
+    margin-bottom: 50px;
+    margin-top: 0%
+}
+.p1{
+width:;
+background: #aaa;
+padding: 10px;
+margin-left: 70%;
+
+position: relative;
+background-position: right;
+}
+
+.p1::before{
+    content: "";
+    height: 100%;
+    width: 5px;
+    background: aqua;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+   
+}
+.image4{
+    
+    padding-left: 30%;
+    display: inline;
+ 
+   position: relative;
+   background-position: right;
+}
+.game{
+    position: absolute;
+    left: 22%;
+    top: 270%;
+    
+    text-align: right;
+    font-size: 30px;
+}
+.game1{
+    position: absolute;
+    left: 27%;
+        top: 275%;
+        
+        text-align: right;
+        font-size: 30px;
+}
+.dwonload{
+    padding-left: 23%;
+    padding-top: 10%;
+}
+.link{
+    background: #aaa;
+padding-right: 15px;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 10px;
+
+width: 50%;
+margin-left: 48%;
+position: relative;
+background-position: right;
+}
+.link::before{
+    content: "";
+    height: 7px;
+    width: 100%;
+    background: aqua;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+@media screen and (max-width:500px){
+    .link{
+        background: #aaa;
+padding-right: 16px;
+padding-bottom: 10px;
+padding-top: 10px;
+padding-left: 10px;
+
+width: 50%;
+margin-left: 44%;
+position: relative;
+background-position: right;
+    }
+}
+@media screen and (min-width:501px) and (max-width:2000px){
+    .game{
+        position: absolute;
+        left: 43%;
+        top: 145%;
+        
+        text-align: right;
+        font-size: 30px;
+    }
+}
+@media screen and (min-width:501px) and (max-width:2000px){
+    .game1{
+        position: absolute;
+        left: 45%;
+            top: 150%;
+            
+            text-align: right;
+            font-size: 30px;
+    }
+}
+@media screen and (min-width:501px) and (max-width:2000px){
+    .image4{
+        padding-left: 45%;
+        display: inline;
+     
+       position: relative;
+       background-position: right;
+    
+    }
+}
+@media screen and (min-width:501px) and (max-width:2000px){
+   .dwonload{
+    padding-left: 43%;
+    padding-top: 5%;
+   }
+}
